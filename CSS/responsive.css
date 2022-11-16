@@ -1,5 +1,8 @@
 @media (max-width:799px){
 /* navigation bar  */
+#header{
+    padding: 10px 30px;
+}
 .navbar {
     display: flex;
     flex-direction: column;
@@ -31,7 +34,7 @@
 
 #mobile i{
     color: #23557C;
-    font-size: 26px;
+    font-size: 30px;
     padding-left: 25px;
     transition: 0.3s ease;
 }
@@ -48,5 +51,9 @@
     font-size: 24px;
 }
 
+/* Hero Part  */
+#hero .text h2{
+    font-size: 28px;
+}
 
 }    
