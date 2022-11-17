@@ -1,427 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add Favicon  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Data/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Data/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Data/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/Data/favicon_io/site.webmanifest" />
 
-  <!-- Add Favicon  -->
-  <link rel="apple-touch-icon" sizes="180x180" href="Data/favicon_io/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="Data/favicon_io/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="Data/favicon_io/favicon-16x16.png" />
-  <link rel="manifest" href="/Data/favicon_io/site.webmanifest" />
+    <!-- Setup Webfont with CDN in FontAwesome  -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
 
-  <!-- Setup Webfont with CDN in FontAwesome  -->
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" /> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- Bootstrap CDN for testimonials  -->
+    <!-- Bootstrap CDN for testimonials  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
-  <!-- Bootstrap CDN for testimonials  -->
-  <!-- Bootstrap CDN for testimonials  -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- owl-carousel css stylesheet  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
 
-  <!-- owl-carousel css stylesheet  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
 
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
 
-  <!-- stylesheet  -->
-  <link rel="stylesheet" href="CSS/style.css" />
-  <link rel="stylesheet" href="CSS/responsive.css" />
+    <title>Rectangle Technologies</title>
+  </head>
 
-  <title>Rectangle Technologies</title>
-</head>
-
-<body>
-  <section id="header" class="max-width">
-    <div class="logo-box">
-      <a href="#">
-        <img src="data/logo.png" alt="no img" />
-      </a>
-    </div>
-
-    <div>
-      <ul id="navbar" class="navbar">
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Client Reviews</a></li>
-        <li><a href="#">Contact Us</a></li>
-
-        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-      </ul>
-    </div>
-
-    <div id="mobile">
-      <i id="bar" class="fa-solid fa-bars"></i>
-    </div>
-  </section>
-
-  <section id="hero" class="max-width">
-    <div class="text">
-      <div class="heading">
-        <h2>We are</h2>
+  <body>
+    <section id="header" class="max-width">
+      <div class="logo-box">
+        <a href="#">
+          <img src="data/logo.png" alt="no img" />
+        </a>
       </div>
-      <div class="heading">
-        <h2>creating Custom</h2>
-      </div>
-      <div class="heading">
-        <h2>Software development</h2>
-      </div>
-      <div class="heading">
-        <h2>solutions</h2>
-      </div>
-      <p class="content">
-        We are the IT software develpoment company. We are providing
-        Engineering Websites For Superior Performance, priviliged to work with
-        hundred of future-think businesses.
-      </p>
-    </div>
-    <div class="img"></div>
-  </section>
 
-  <!-- about section  -->
-  <section id="about" class="max-width section-mp">
-    <div class="title">
-      <h2>About Us</h2>
-      <h2>what we do</h2>
-    </div>
+      <div>
+        <ul id="navbar" class="navbar">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Client Reviews</a></li>
+          <li><a href="#">Contact Us</a></li>
 
-    <div class="about-content">
-      <div class="left">
-        <img src="Data/about.jpg" alt="no img" />
-      </div>
-      <div class="right">
-        <div class="head">We believe in meaningful partnerships</div>
-        <p>
-          We deliver cutting-edge digital products for startups, corporate
-          clients, investors, and digital agencies. As a full-stack
-          development company, we are the go-to source for all your software,
-          hardware and firmware projects. As a company derived from R&D
-          projects, we have a unique ability to combine a scientific and
-          business approach, which results in the high efficiency of our team.
-        </p>
-        <ul class="points">
-          <li><i class="fa-solid fa-check"></i>pixel-perfect approach</li>
-          <li>
-            <i class="fa-solid fa-check"></i>support throughout the project
-          </li>
-          <li>
-            <i class="fa-solid fa-check"></i>tech responsibility takeover
-          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
         </ul>
       </div>
-    </div>
-  </section>
 
-  <section id="vision" class="max-width sectionmp">
-    <div class="left-vision">
-      <div class="head">OUR VISION</div>
-      <p>
-        The mission management workflows in just a a few clicks. The idea was
-        to create a simple-to-use social media ads management platform,
-        allowing users to create and manage their ad campaigns, adjust CPCs,
-        and getting data insights on 6 major platforms simultaneously. With
-        Spearphish data hygiene tools, and built-in analytics, planning your
-        budget and re-targeting options should become much easier.With
-        Spearphish data hygiene tools, and built-in analytics, planning your
-        budget and re-targeting options should become much easier.
-      </p>
-
-      <p>
-        The mission of Spearphish was to simplify marketers’ social media
-        budget management workflows in just a a few clicks.
-      </p>
-    </div>
-    <div class="right-vision">
-      <img src="Data/laptop-rebg.png" alt="no img" />
-    </div>
-  </section>
-
- <section id="services" class="max-width section-mp">
-    <div class="title">
-      <h2>Services</h2>
-      <h2>WE ARE PROVIDING</h2>
-    </div>
-    <section class="service-content">
-      <!-- provide 1 part  -->
-      <div class="provide">
-        <div class="box">
-          <div><i class="fa-solid fa-laptop"></i></div>
-          <div class="data">
-            <h2>IOS/MacOS Apps</h2>
-            <p>
-              The world of iOS and MacOS applications is front and center of
-              the most of our projects. Basically, working on crafting of the
-              most of our projects
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div><i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i></div>
-          <div class="data">
-            <h2>UX/UI Design</h2>
-            <p>
-              The world of iOS and MacOS applications is front and center of
-              the most of our projects. Basically, working on crafting of the
-              most of our projects
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div><i class="fa-solid fa-laptop"></i></div>
-          <div class="data">
-            <h2>IOS/MacOS Apps</h2>
-            <p>
-              The world of iOS and MacOS applications is front and center of
-              the most of our projects. Basically, working on crafting of the
-              most of our projects
-            </p>
-          </div>
-        </div>
+      <div id="mobile">
+        <i id="bar" class="fa-solid fa-bars"></i>
       </div>
-      <!-- phone part  -->
-      <div class="phone">
-        <img src="Data/phone.png" alt="" />
-      </div>
-      <!-- provide 2 part        -->
-       <div class="provide">
-        <div class="box">
-          <div><i class="fa-brands fa-windows"></i></div>
-          <div class="data">
-            <h2>Windows Applications</h2>
-            <p>
-              The world of iOS and MacOS applications is front and center of
-              the most of our projects. Basically, working on crafting of the
-              most of our projects
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div><i class="fa-brands fa-android"></i></div>
-          <div class="data">
-            <h2>Android Applications</h2>
-            <p>
-              The world of iOS and MacOS applications is front and center of
-              the most of our projects. Basically, working on crafting of the
-              most of our projects
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div><i class="fa-solid fa-database"></i></div>
-          <div class="data">
-            <h2>Enterprise Solutions</h2>
-            <p>
-              The world of iOS and MacOS applications is front and center of
-              the most of our projects. Basically, working on crafting of the
-              most of our projects
-            </p>
-          </div>
-        </div>
-      </div> 
     </section>
-  </section> 
 
+    <section id="hero" class="max-width">
+      <div class="text">
+        <div class="heading">
+          <h2>We are</h2>
+        </div>
+        <div class="heading">
+          <h2>creating Custom</h2>
+        </div>
+        <div class="heading">
+          <h2>Software development</h2>
+        </div>
+        <div class="heading">
+          <h2>solutions</h2>
+        </div>
+        <p class="content">
+          We are the IT software develpoment company. We are providing
+          Engineering Websites For Superior Performance, priviliged to work with
+          hundred of future-think businesses.
+        </p>
+      </div>
+      <div class="img"></div>
+    </section>
 
-  <section id="project" class="max-width section-mp">
-    <div class="title">
-      <h2>Projects</h2>
-      <h2>What We Develop</h2>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="project-part" class="owl-carousel owl-theme owl-loaded">
+    <!-- about section  -->
+    <section id="about" class="max-width section-mp">
+      <div class="title">
+        <h2>About Us</h2>
+        <h2>what we do</h2>
+      </div>
 
-            <div class="project-content">
+      <div class="about-content">
+        <div class="left">
+          <img src="Data/about.jpg" alt="no img" />
+        </div>
+        <div class="right">
+          <div class="head">We believe in meaningful partnerships</div>
+          <p>
+            We deliver cutting-edge digital products for startups, corporate
+            clients, investors, and digital agencies. As a full-stack
+            development company, we are the go-to source for all your software,
+            hardware and firmware projects. As a company derived from R&D
+            projects, we have a unique ability to combine a scientific and
+            business approach, which results in the high efficiency of our team.
+          </p>
+          <ul class="points">
+            <li><i class="fa-solid fa-check"></i>pixel-perfect approach</li>
+            <li>
+              <i class="fa-solid fa-check"></i>support throughout the project
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>tech responsibility takeover
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-              <div class="pro-img">
-                <img src="data/project-img-1.png" alt="">
-              </div>
+    <section id="vision" class="max-width sectionmp">
+      <div class="left-vision">
+        <div class="head">OUR VISION</div>
+        <p>
+          The mission management workflows in just a a few clicks. The idea was
+          to create a simple-to-use social media ads management platform,
+          allowing users to create and manage their ad campaigns, adjust CPCs,
+          and getting data insights on 6 major platforms simultaneously. With
+          Spearphish data hygiene tools, and built-in analytics, planning your
+          budget and re-targeting options should become much easier.With
+          Spearphish data hygiene tools, and built-in analytics, planning your
+          budget and re-targeting options should become much easier.
+        </p>
 
-              <div class="pr-detail">
-                <div class="heading">
-                  <h2>Construtor Software</h2>
-                </div>
-                <p>We deliver cutting-edge digital products for startups, corporate clients, investors, and digital
-                  agencies. As a full-stack development company, we are the go-to source for all your software, hardware
-                  and firmware projects. As a company approach, which results in the high efficiency of our team.</p>
-                <a href="#">Launch the Site<i class="fa-solid fa-angles-right"></i></a>
-              </div>
+        <p>
+          The mission of Spearphish was to simplify marketers’ social media
+          budget management workflows in just a a few clicks.
+        </p>
+      </div>
+      <div class="right-vision">
+        <img src="Data/laptop-rebg.png" alt="no img" />
+      </div>
+    </section>
 
+    <section id="services" class="max-width section-mp">
+      <div class="title">
+        <h2>Services</h2>
+        <h2>WE ARE PROVIDING</h2>
+      </div>
+      <section class="service-content">
+        <!-- provide 1 part  -->
+        <div class="provide">
+          <div class="box">
+            <div><i class="fa-solid fa-laptop"></i></div>
+            <div class="data">
+              <h2>IOS/MacOS Apps</h2>
+              <p>
+                The world of iOS and MacOS applications is front and center of
+                the most of our projects. Basically, working on crafting of the
+                most of our projects
+              </p>
             </div>
-
-            <div class="project-content">
-
-              <div class="pro-img">
-                <img src="data/project-img-1.png" alt="">
-              </div>
-
-              <div class="pr-detail">
-                <div class="heading">
-                  <h2>Construtor Software</h2>
-                </div>
-                <p>We deliver cutting-edge digital products for startups, corporate clients, investors, and digital
-                  agencies. As a full-stack development company, we are the go-to source for all your software, hardware
-                  and firmware projects. As a company approach, which results in the high efficiency of our team.</p>
-                <a href="#">Launch the Site<i class="fa-solid fa-angles-right"></i></a>
-              </div>
-
+          </div>
+          <div class="box">
+            <div><i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i></div>
+            <div class="data">
+              <h2>UX/UI Design</h2>
+              <p>
+                The world of iOS and MacOS applications is front and center of
+                the most of our projects. Basically, working on crafting of the
+                most of our projects
+              </p>
             </div>
-
-            <div class="project-content">
-
-              <div class="pro-img">
-                <img src="data/project-img-1.png" alt="">
-              </div>
-
-              <div class="pr-detail">
-                <div class="heading">
-                  <h2>Construtor Software</h2>
-                </div>
-                <p>We deliver cutting-edge digital products for startups, corporate clients, investors, and digital
-                  agencies. As a full-stack development company, we are the go-to source for all your software, hardware
-                  and firmware projects. As a company approach, which results in the high efficiency of our team.</p>
-                <a href="#">Launch the Site<i class="fa-solid fa-angles-right"></i></a>
-              </div>
-
+          </div>
+          <div class="box">
+            <div><i class="fa-solid fa-laptop"></i></div>
+            <div class="data">
+              <h2>IOS/MacOS Apps</h2>
+              <p>
+                The world of iOS and MacOS applications is front and center of
+                the most of our projects. Basically, working on crafting of the
+                most of our projects
+              </p>
             </div>
-
-            <div class="project-content">
-
-              <div class="pro-img">
-                <img src="data/project-img-1.png" alt="">
-              </div>
-
-              <div class="pr-detail">
-                <div class="heading">
-                  <h2>Construtor Software</h2>
-                </div>
-                <p>We deliver cutting-edge digital products for startups, corporate clients, investors, and digital
-                  agencies. As a full-stack development company, we are the go-to source for all your software, hardware
-                  and firmware projects. As a company approach, which results in the high efficiency of our team.</p>
-                <a href="#">Launch the Site<i class="fa-solid fa-angles-right"></i></a>
-              </div>
-
+          </div>
+        </div>
+        <!-- phone part  -->
+        <div class="phone">
+          <img src="Data/phone.png" alt="" />
+        </div>
+        <!-- provide 2 part        -->
+        <div class="provide">
+          <div class="box">
+            <div><i class="fa-brands fa-windows"></i></div>
+            <div class="data">
+              <h2>Windows Applications</h2>
+              <p>
+                The world of iOS and MacOS applications is front and center of
+                the most of our projects. Basically, working on crafting of the
+                most of our projects
+              </p>
             </div>
+          </div>
+          <div class="box">
+            <div><i class="fa-brands fa-android"></i></div>
+            <div class="data">
+              <h2>Android Applications</h2>
+              <p>
+                The world of iOS and MacOS applications is front and center of
+                the most of our projects. Basically, working on crafting of the
+                most of our projects
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div><i class="fa-solid fa-database"></i></div>
+            <div class="data">
+              <h2>Enterprise Solutions</h2>
+              <p>
+                The world of iOS and MacOS applications is front and center of
+                the most of our projects. Basically, working on crafting of the
+                most of our projects
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
 
+    <section id="project" class="max-width section-mp">
+      <div class="title">
+        <h2>Projects</h2>
+        <h2>What We Develop</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="project-part" class="owl-carousel owl-theme owl-loaded">
+              <div class="project-content">
+                <div class="pro-img">
+                  <img src="data/project-img-1.png" alt="" />
+                </div>
+
+                <div class="pr-detail">
+                  <div class="heading">
+                    <h2>Construtor Software</h2>
+                  </div>
+                  <p>
+                    We deliver cutting-edge digital products for startups,
+                    corporate clients, investors, and digital agencies. As a
+                    full-stack development company, we are the go-to source for
+                    all your software, hardware and firmware projects. As a
+                    company approach, which results in the high efficiency of
+                    our team.
+                  </p>
+                  <a href="#"
+                    >Launch the Site<i class="fa-solid fa-angles-right"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <div class="pro-img">
+                  <img src="data/project-img-1.png" alt="" />
+                </div>
+
+                <div class="pr-detail">
+                  <div class="heading">
+                    <h2>Construtor Software</h2>
+                  </div>
+                  <p>
+                    We deliver cutting-edge digital products for startups,
+                    corporate clients, investors, and digital agencies. As a
+                    full-stack development company, we are the go-to source for
+                    all your software, hardware and firmware projects. As a
+                    company approach, which results in the high efficiency of
+                    our team.
+                  </p>
+                  <a href="#"
+                    >Launch the Site<i class="fa-solid fa-angles-right"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <div class="pro-img">
+                  <img src="data/project-img-1.png" alt="" />
+                </div>
+
+                <div class="pr-detail">
+                  <div class="heading">
+                    <h2>Construtor Software</h2>
+                  </div>
+                  <p>
+                    We deliver cutting-edge digital products for startups,
+                    corporate clients, investors, and digital agencies. As a
+                    full-stack development company, we are the go-to source for
+                    all your software, hardware and firmware projects. As a
+                    company approach, which results in the high efficiency of
+                    our team.
+                  </p>
+                  <a href="#"
+                    >Launch the Site<i class="fa-solid fa-angles-right"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="project-content">
+                <div class="pro-img">
+                  <img src="data/project-img-1.png" alt="" />
+                </div>
+
+                <div class="pr-detail">
+                  <div class="heading">
+                    <h2>Construtor Software</h2>
+                  </div>
+                  <p>
+                    We deliver cutting-edge digital products for startups,
+                    corporate clients, investors, and digital agencies. As a
+                    full-stack development company, we are the go-to source for
+                    all your software, hardware and firmware projects. As a
+                    company approach, which results in the high efficiency of
+                    our team.
+                  </p>
+                  <a href="#"
+                    >Launch the Site<i class="fa-solid fa-angles-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section> 
+    </section>
 
-   <section id="technology" class="max-width ">
-    <div class="title">
-      <h2>Technology</h2>
-      <h2>What We Use</h2>      
-    </div>
-    <div class="marquee">
-      <ul class="marquee-content">
-        <li><i class="fab fa-github"></i></li>
-        <li><i class="fab fa-codepen"></i></li>
-        <li><i class="fab fa-free-code-camp"></i></li>
-        <li><i class="fab fa-dev"></i></li>
-        <li><i class="fab fa-react"></i></li>
-        <li><i class="fab fa-vuejs"></i></li>
-        <li><i class="fab fa-angular"></i></li>
-        <li><i class="fab fa-node"></i></li>
-        <li><i class="fab fa-wordpress"></i></li>
-        <li><i class="fab fa-aws"></i></li>
-        <li><i class="fab fa-docker"></i></li>
-        <li><i class="fab fa-android"></i></li>
-      </ul>
-    </div>
-
-  </section> 
-  <section id="faq" class="max-width section-mp">
-    <div class="title">
-      <h2>FAQ’S</h2>
-      <h2>GET YOUR ANSWERS</h2>
-    </div>
-    <div class="faq-content">
-      <div class="faq">
-        <div class="question">
-          <h3>What are the stages of website design development?</h3>
-
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-
-        <div class="answer">
-          <p>
-            Our pricing depends on the scope of work, team structure, and a
-            rate card. Commonly, the hourly rates start from $100/per hour for
-            a web designer and go up depending on the level of expertise.
-            Generally, a 10-15 page marketing website of a tech startup starts
-            from $50,000 and onwards..
-          </p>
-        </div>
+    <section id="technology" class="max-width">
+      <div class="title">
+        <h2>Technology</h2>
+        <h2>What We Use</h2>
       </div>
-      <div class="faq">
-        <div class="question">
-          <h3>
-            How long does it take for your designers to design a website?
-          </h3>
-
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-
-        <div class="answer">
-          <p>
-            Our pricing depends on the scope of work, team structure, and a
-            rate card. Commonly, the hourly rates start from $100/per hour for
-            a web designer and go up depending on the level of expertise.
-            Generally, a 10-15 page marketing website of a tech startup starts
-            from $50,000 and onwards.. Our pricing depends on the scope of
-            work, team structure, and a rate card. Commonly, the hourly rates
-            start from $100/per hour for a web designer and go up depending on
-            the level of expertise. Generally, a 10-15 page marketing website
-            of a tech startup starts from $50,000 and onwards..
-          </p>
-        </div>
+      <div class="marquee">
+        <ul class="marquee-content">
+          <li><i class="fab fa-github"></i></li>
+          <li><i class="fab fa-codepen"></i></li>
+          <li><i class="fab fa-free-code-camp"></i></li>
+          <li><i class="fab fa-dev"></i></li>
+          <li><i class="fab fa-react"></i></li>
+          <li><i class="fab fa-vuejs"></i></li>
+          <li><i class="fab fa-angular"></i></li>
+          <li><i class="fab fa-node"></i></li>
+          <li><i class="fab fa-wordpress"></i></li>
+          <li><i class="fab fa-aws"></i></li>
+          <li><i class="fab fa-docker"></i></li>
+          <li><i class="fab fa-android"></i></li>
+        </ul>
       </div>
-      <div class="faq">
-        <div class="question">
-          <h3>How much does it cost to hire your website design company?</h3>
-
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-
-        <div class="answer">
-          <p>
-            Our pricing depends on the scope of work, team structure, and a
-            rate card. Commonly, the hourly rates start from $100/per hour for
-            a web designer and go up depending on the level of expertise.
-            Generally, a 10-15 page marketing website of a tech startup starts
-            from $50,000 and onwards..
-          </p>
-        </div>
+    </section>
+    <section id="faq" class="max-width section-mp">
+      <div class="title">
+        <h2>FAQ’S</h2>
+        <h2>GET YOUR ANSWERS</h2>
       </div>
-      <div class="faq">
-        <div class="question">
-          <h3>How does your web design firm process look like?</h3>
+      <div class="faq-content">
+        <div class="faq">
+          <div class="question">
+            <h3>What are the stages of website design development?</h3>
 
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
 
-        <div class="answer">
-          <p>
-            Our pricing depends on the scope of work, team structure, and a
-            rate card. Commonly, the hourly rates start from $100/per hour for
-            a web designer and go up depending on the level of expertise.
-            Generally, a 10-15 page marketing website of a tech startup starts
-            from $50,000 and onwards..
-          </p>
+          <div class="answer">
+            <p>
+              Our pricing depends on the scope of work, team structure, and a
+              rate card. Commonly, the hourly rates start from $100/per hour for
+              a web designer and go up depending on the level of expertise.
+              Generally, a 10-15 page marketing website of a tech startup starts
+              from $50,000 and onwards..
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="faq">
-        <div class="question">
-          <h3>Who are your website design agency target customers?</h3>
-          <i class="fa-solid fa-chevron-down"></i>
-          <!-- <svg width="10" height="10" viewBox="0 0 42 25">
+        <div class="faq">
+          <div class="question">
+            <h3>
+              How long does it take for your designers to design a website?
+            </h3>
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+
+          <div class="answer">
+            <p>
+              Our pricing depends on the scope of work, team structure, and a
+              rate card. Commonly, the hourly rates start from $100/per hour for
+              a web designer and go up depending on the level of expertise.
+              Generally, a 10-15 page marketing website of a tech startup starts
+              from $50,000 and onwards.. Our pricing depends on the scope of
+              work, team structure, and a rate card. Commonly, the hourly rates
+              start from $100/per hour for a web designer and go up depending on
+              the level of expertise. Generally, a 10-15 page marketing website
+              of a tech startup starts from $50,000 and onwards..
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="question">
+            <h3>How much does it cost to hire your website design company?</h3>
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+
+          <div class="answer">
+            <p>
+              Our pricing depends on the scope of work, team structure, and a
+              rate card. Commonly, the hourly rates start from $100/per hour for
+              a web designer and go up depending on the level of expertise.
+              Generally, a 10-15 page marketing website of a tech startup starts
+              from $50,000 and onwards..
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="question">
+            <h3>How does your web design firm process look like?</h3>
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+
+          <div class="answer">
+            <p>
+              Our pricing depends on the scope of work, team structure, and a
+              rate card. Commonly, the hourly rates start from $100/per hour for
+              a web designer and go up depending on the level of expertise.
+              Generally, a 10-15 page marketing website of a tech startup starts
+              from $50,000 and onwards..
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="question">
+            <h3>Who are your website design agency target customers?</h3>
+            <i class="fa-solid fa-chevron-down"></i>
+            <!-- <svg width="10" height="10" viewBox="0 0 42 25">
               <path
                 d="M3 3L21 21L39 3"
                 stroke="white"
@@ -429,239 +469,260 @@
                 stroke-linecap="round"
               />
             </svg> -->
-  </div>
+          </div>
 
-   <div class="answer">
-    <p>
-      Our pricing depends on the scope of work, team structure, and a
-      rate card. Commonly, the hourly rates start from $100/per hour for
-      a web designer and go up depending on the level of expertise.
-      Generally, a 10-15 page marketing website of a tech startup starts
-      from $50,000 and onwards..
-    </p>
-  </div>
-  </div>
-  </div>
-  </section> 
-
-  <section id="client" class=" image max-width section-mp">
-
-    <section id="testimonials">
-      <div id="testimonials-cover">
-        <h3 class="text-center">What Our Clients Say</h3>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div id="customers-testimonial" class="text-center owl-carousel owl-theme">
-                <!-- Testimonial 1 -->
-  <div class="testimonial">
-    <img src="Data/testi.jfif" class="img-responsive img-circle" alt="No Img" />
-
-    <blockquote class="text-center">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Esse adipisci aperiam dignissimos consectetur explicabo
-        cumque aliquid earum minus ab iusto accusantium
-        exercitationem fugiat voluptatum impedit reiciendis
-        nesciunt ipsum, placeat nulla magni quis deserunt, vitae,
-        labore molestiae. Consequuntur provident deserunt fuga
-        doloremque nulla ipsam sed magnam facere, vitae deleniti
-        dolorem natus.
-      </p>
-    </blockquote>
-
-    <div class="testimonial-author">
-      <p>
-        <strong>Daniel Watrosu</strong>
-        <span>CEO & Founder - Google</span>
-      </p>
-    </div>
-  </div>
-
-  <!-- Testimonial 2 -->
-  <div class="testimonial">
-    <img src="data/test-2.jpg" class="img-responsive img-circle" alt="No Img" />
-
-    <blockquote class="text-center">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Esse adipisci aperiam dignissimos consectetur explicabo
-        cumque aliquid earum minus ab iusto accusantium
-        exercitationem fugiat voluptatum impedit reiciendis
-        nesciunt ipsum, placeat nulla magni quis deserunt, vitae,
-        labore molestiae. Consequuntur provident deserunt fuga
-        doloremque nulla ipsam sed magnam facere, vitae deleniti
-        dolorem natus.
-      </p>
-    </blockquote>
-
-    <div class="testimonial-author">
-      <p>
-        <strong>Daniel Watrosu</strong>
-        <span>CEO & Founder - Google</span>
-      </p>
-    </div>
-  </div>
-
-  <!-- Testimonial 3 -->
-  <div class="testimonial">
-    <img src="data/testi.jfif" class="img-responsive img-circle" alt="No Img" />
-
-    <blockquote class="text-center">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Esse adipisci aperiam dignissimos consectetur explicabo
-        cumque aliquid earum minus ab iusto accusantium
-        exercitationem fugiat voluptatum impedit reiciendis
-        nesciunt ipsum, placeat nulla magni quis deserunt, vitae,
-        labore molestiae. Consequuntur provident deserunt fuga
-        doloremque nulla ipsam sed magnam facere, vitae deleniti
-        dolorem natus.
-      </p>
-    </blockquote>
-
-    <div class="testimonial-author">
-      <p>
-        <strong>Daniel Watrosu</strong>
-        <span>CEO & Founder - Google</span>
-      </p>
-    </div>
-  </div>
-
-  <!-- Testimonial 4 -->
- <div class="testimonial">
-    <img src="data/testi-3.jpg" class="img-responsive img-circle" alt="No Img" />
-
-    <blockquote class="text-center">
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Esse adipisci aperiam dignissimos consectetur explicabo
-        cumque aliquid earum minus ab iusto accusantium
-        exercitationem fugiat voluptatum impedit reiciendis
-        nesciunt ipsum, placeat nulla magni quis deserunt, vitae,
-        labore molestiae. Consequuntur provident deserunt fuga
-        doloremque nulla ipsam sed magnam facere, vitae deleniti
-        dolorem natus.
-      </p>
-    </blockquote>
-
-    <div class="testimonial-author">
-      <p>
-        <strong>Daniel Watrosu</strong>
-        <span>CEO & Founder - Google</span>
-      </p>
-    </div>
-  </div> 
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </section>
-  </section> 
-
-  <footer id="footer" class="max-width section-mp">
-    <div class="title">
-      <h2>LET'S TALK</h2>
-      <h2>AND COLLABORATE</h2>
-    </div>
-    <div class="footer-content">
-      <div class="details common">
-        <h2>RECTANGLE TECHNOLOGIES</h2>
-        <p>
-          Our preference is to code the website from scratch in order to
-          retain complete control over the website.We provide all types of
-          solutions ranging from low cost informative and digital presence
-          websites. We provide all types of solutions ranging from low cost
-          informative and digital presence websites
-        </p>
-      </div>
-      <div class="touch common">
-        <h2>GET IN TOUCH</h2>
-        <div class="boxes">
-          <i class="fa-solid fa-envelope"></i>
-          <p>rectangletechnologies2230 <br> @gmail.com</p>
+          <div class="answer">
+            <p>
+              Our pricing depends on the scope of work, team structure, and a
+              rate card. Commonly, the hourly rates start from $100/per hour for
+              a web designer and go up depending on the level of expertise.
+              Generally, a 10-15 page marketing website of a tech startup starts
+              from $50,000 and onwards..
+            </p>
+          </div>
         </div>
-        <div class="boxes">
-          <i class="fa-solid fa-phone"></i>
+      </div>
+    </section>
+
+    <section id="client" class="image max-width section-mp">
+      <section id="testimonials">
+        <div id="testimonials-cover">
+          <h3 class="text-center">What Our Clients Say</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  id="customers-testimonial"
+                  class="text-center owl-carousel owl-theme"
+                >
+                  <!-- Testimonial 1 -->
+                  <div class="testimonial">
+                    <img
+                      src="Data/testi.jfif"
+                      class="img-responsive img-circle"
+                      alt="No Img"
+                    />
+
+                    <blockquote class="text-center">
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse adipisci aperiam dignissimos consectetur explicabo
+                        cumque aliquid earum minus ab iusto accusantium
+                        exercitationem fugiat voluptatum impedit reiciendis
+                        nesciunt ipsum, placeat nulla magni quis deserunt,
+                        vitae, labore molestiae. Consequuntur provident deserunt
+                        fuga doloremque nulla ipsam sed magnam facere, vitae
+                        deleniti dolorem natus.
+                      </p>
+                    </blockquote>
+
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>- Daniel Watrosu</strong>
+                        <span>CEO & Founder - Google</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Testimonial 2 -->
+                  <div class="testimonial">
+                    <img
+                      src="data/test-2.jpg"
+                      class="img-responsive img-circle"
+                      alt="No Img"
+                    />
+
+                    <blockquote class="text-center">
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse adipisci aperiam dignissimos consectetur explicabo
+                        cumque aliquid earum minus ab iusto accusantium
+                        exercitationem fugiat voluptatum impedit reiciendis
+                        nesciunt ipsum, placeat nulla magni quis deserunt,
+                        vitae, labore molestiae. Consequuntur provident deserunt
+                        fuga doloremque nulla ipsam sed magnam facere, vitae
+                        deleniti dolorem natus.
+                      </p>
+                    </blockquote>
+
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>- Daniel Watrosu</strong>
+                        <span>CEO & Founder - Google</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Testimonial 3 -->
+                  <div class="testimonial">
+                    <img
+                      src="data/testi.jfif"
+                      class="img-responsive img-circle"
+                      alt="No Img"
+                    />
+
+                    <blockquote class="text-center">
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse adipisci aperiam dignissimos consectetur explicabo
+                        cumque aliquid earum minus ab iusto accusantium
+                        exercitationem fugiat voluptatum impedit reiciendis
+                        nesciunt ipsum, placeat nulla magni quis deserunt,
+                        vitae, labore molestiae. Consequuntur provident deserunt
+                        fuga doloremque nulla ipsam sed magnam facere, vitae
+                        deleniti dolorem natus.
+                      </p>
+                    </blockquote>
+
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>- Daniel Watrosu</strong>
+                        <span>CEO & Founder - Google</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Testimonial 4 -->
+                  <div class="testimonial">
+                    <img
+                      src="data/testi-3.jpg"
+                      class="img-responsive img-circle"
+                      alt="No Img"
+                    />
+
+                    <blockquote class="text-center">
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Esse adipisci aperiam dignissimos consectetur explicabo
+                        cumque aliquid earum minus ab iusto accusantium
+                        exercitationem fugiat voluptatum impedit reiciendis
+                        nesciunt ipsum, placeat nulla magni quis deserunt,
+                        vitae, labore molestiae. Consequuntur provident deserunt
+                        fuga doloremque nulla ipsam sed magnam facere, vitae
+                        deleniti dolorem natus.
+                      </p>
+                    </blockquote>
+
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>- Daniel Watrosu</strong>
+                        <span>CEO & Founder - Google</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer id="footer" class="max-width section-mp">
+      <div class="title">
+        <h2>LET'S TALK</h2>
+        <h2>AND COLLABORATE</h2>
+      </div>
+      <div class="footer-content">
+        <div class="details common">
+          <h2>RECTANGLE TECHNOLOGIES</h2>
           <p>
-            +91 7624016173 / <br />
-            +91 9586048530
+            Our preference is to code the website from scratch in order to
+            retain complete control over the website.We provide all types of
+            solutions ranging from low cost informative and digital presence
+            websites. We provide all types of solutions ranging from low cost
+            informative and digital presence websites
           </p>
         </div>
-        <div class="boxes">
-          <i class="fa-sharp fa-solid fa-location-dot"></i>
-          <p>Rectangle Technologies, Surat, Gujarat-395007</p>
+        <div class="touch common">
+          <h2>GET IN TOUCH</h2>
+          <div class="boxes">
+            <i class="fa-solid fa-envelope"></i>
+            <p>
+              rectangletechnologies2230 <br />
+              @gmail.com
+            </p>
+          </div>
+          <div class="boxes">
+            <i class="fa-solid fa-phone"></i>
+            <p>
+              +91 7624016173 / <br />
+              +91 9586048530
+            </p>
+          </div>
+          <div class="boxes">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <p>Rectangle Technologies, Surat, Gujarat-395007</p>
+          </div>
+        </div>
+        <div class="follow common">
+          <h2>FOLLOW US ON</h2>
+          <div class="social">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <p>LinkedIn</p>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-instagram"></i>
+            <p>Instagram</p>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-twitter"></i>
+            <p>Twitter</p>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <p>Facebook</p>
+          </div>
         </div>
       </div>
-      <div class="follow common">
-        <h2>FOLLOW US ON</h2>
-        <div class="social">
-          <i class="fa-brands fa-linkedin-in"></i>
-          <p>LinkedIn</p>
-        </div>
-        <div class="social">
-          <i class="fa-brands fa-instagram"></i>
-          <p>Instagram</p>
-        </div>
-        <div class="social">
-          <i class="fa-brands fa-twitter"></i>
-          <p>Twitter</p>
-        </div>
-        <div class="social">
-          <i class="fa-brands fa-facebook-f"></i>
-          <p>Facebook</p>
-        </div>
+
+      <div class="copyright">
+        <p>© 2022 Rectangle Technologies. All rights reserved.</p>
+        <p>Privacy Policies | Terms & Conditions</p>
       </div>
-    </div>
+    </footer>
 
-    <div class="copyright">
-      <p>© 2022 Rectangle Technologies. All rights reserved.</p>
-      <p>Privacy Policies | Terms & Conditions</p>
-    </div>
-  </footer>
+    <!-- jquery script tag for testimonial  -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- jquery script tag for testimonial  -->
-  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-    crossorigin="anonymous"></script>
+    <!-- owl-carousel js file  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-  <!-- owl-carousel js file  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script></script>
 
-  <script>
-
-  </script>
-
-  <!-- Javascript  -->
-  <script src="Javascript/script.js"></script>
-</body>
-
+    <!-- Javascript  -->
+    <script src="Javascript/script.js"></script>
+  </body>
 </html>
