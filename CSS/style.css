@@ -373,16 +373,41 @@ body{
 }
 
 
-.laptop .lp-set img{     
+/* .laptop .lp-set img{     
     width: 80%;
     height: auto;
-}
+} */
 
 
 /* Project section  */
 #project .owl-dots{
     display: none;
 } 
+
+#project .owl-nav.disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#project .owl-nav.disabled button{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #23557C;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20px;
+    transition: all ease 0.3s;
+    /* border: 2px solid #23557C; */
+}
+#project .owl-nav.disabled button:hover{
+    border-color: #23557C;
+    transform: scale(1.2);
+    background-color: transparent;
+}
 
 #project .project-content {
     display: flex;
