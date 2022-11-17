@@ -42,8 +42,8 @@ body{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     font-size: 48px;
-    line-height: 50px;
-    text-transform: capitalize;
+    /* line-height: 50px; */
+    text-transform:uppercase;
 }
 
 .title h2:nth-child(2) {
@@ -121,7 +121,7 @@ body{
 #hero {
     display: flex;    
     /* align-items: flex-start; */
-    /* justify-content: center; */
+    justify-content: space-between;
 }
 
 #hero .text {
@@ -173,7 +173,7 @@ body{
 
 
 #hero .img {
-    background: linear-gradient(0deg, rgba(35, 85, 124, 0.2), rgba(35, 85, 124, 0.2)), url("../Data/bannerBack.jpg");
+    background: linear-gradient(0deg, rgba(35, 85, 124, 0.3), rgba(35, 85, 124, 0.3)), url("../Data/bannerBack.jpg");
     height: 90vh;
     width: 60%;
     background-position: top 25% right 0;
@@ -192,7 +192,7 @@ body{
 }
 
 #about .about-content .left img {
-    height: 400px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     /* background-color: rgba(35, 85, 124, 0.2); */
@@ -202,13 +202,13 @@ body{
 
 #about .about-content .left {
     width: 40%;
-    height: 400px;
+    /* height: 400px; */
     background: linear-gradient(0deg, rgba(35, 85, 124, 0.23), rgba(35, 85, 124, 0.3));
 }
 
 #about .about-content .right {
     width: 60%;
-    padding: 0px 50px;
+    padding: 0px 40px;
 }
 
 #about .about-content .right .head {
@@ -231,6 +231,8 @@ body{
 }
 
 #about .about-content .right .points li {
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
@@ -290,11 +292,12 @@ body{
     justify-content: center;
     align-items: center;
     width: 50%;
+    padding: 0 20px;
 }
 
 #vision .right-vision img {
     height: auto;
-    width: auto;
+    max-width: 500px;
     padding: 2em;
 }
 
@@ -332,8 +335,7 @@ body{
 #services .service-content .provide .box .data h2 {
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    font-size: 26px;
-    line-height: 50px;
+    font-size: 26px;    
     color: #0066FF;
 }
 
@@ -346,12 +348,12 @@ body{
 } */
 
 #services .service-content .phone {
-    width: 28%;
+    max-width: 330px;
 }
 
 #services .service-content .phone img {
-    width: auto;
-    height: 700px;
+    max-width: 320px;
+    height: auto;
 }
 
 
@@ -737,11 +739,12 @@ h3.text-center {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 10px 40px 10px;
 }
 
 .footer-content .common {
-    width: 33%;
+    /* min-width: 33%; */
 }
 
 
@@ -773,11 +776,13 @@ h3.text-center {
 }
 
 .footer-content .details {
-    padding-right: 4rem;
+    padding-right: 3rem;
+    max-width: 400px;
 }
 
 .footer-content .touch {
     padding: 0 2rem;
+    max-width: 350px;
 }
 
 .footer-content .follow {
@@ -805,4 +810,5 @@ h3.text-center {
     font-size: 12px;
     color: rgb(238, 236, 236);
     border-top: 1px solid #fff;
+    flex-wrap: wrap;
 }
