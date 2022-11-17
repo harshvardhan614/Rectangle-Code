@@ -298,7 +298,6 @@
 
 }
 
-@media (max-width:588px) {}
 
 
 @media (max-width:588px) {
@@ -383,6 +382,10 @@
     }
 
     /* testimonial part  */
+    /* .testimonial blockquote p{
+        max-width: 350px;
+    } */
+    
     .testimonial img {
       margin-bottom: 5px;
     }

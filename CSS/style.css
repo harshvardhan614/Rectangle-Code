@@ -367,6 +367,18 @@ body{
 }
 
 
+/* laptop part  */
+.laptop{
+    background-color: #0066FF;
+}
+
+
+.laptop .lp-set img{     
+    width: 80%;
+    height: auto;
+}
+
+
 /* Project section  */
 #project .owl-dots{
     display: none;
