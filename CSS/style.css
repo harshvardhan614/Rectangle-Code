@@ -23,6 +23,11 @@ p {
     margin-bottom: 0;
 }
 
+
+html{
+    scroll-behavior: smooth;
+  }
+
 /* 
 body{
     width: 100%;
