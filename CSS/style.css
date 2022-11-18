@@ -429,6 +429,7 @@ body{
     width: 80%;
     height: auto;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    /* -webkit-box-reflect: below 0px linear-gradient(transparent , #0006 ); */
 }
 
 #project .project-content .pr-detail {
@@ -443,11 +444,10 @@ body{
 #project .project-content .pr-detail h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    font-size: 28px;
-    /* line-height: 70px; */
+    font-size: 28px;    
     color: #23557C;
     position: relative;
-    margin-bottom: 30px ;
+    margin-bottom: 20px ;
 }
 
 #project .project-content .pr-detail h2::after{
@@ -463,28 +463,99 @@ body{
 #project .project-content .pr-detail p{
     font-weight: 400;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 24px;
     text-align: justify;
     padding-right: 1em;
 }
 
 #project .project-content .pr-detail a{
-    font-family: 'Merriweather', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 22px;
-    text-align: justify;
+    display: inline-block;
+    padding: 12px 16px;
+    border: 2px solid #0066FF;
+    margin: 10px 25px;
     text-transform: uppercase;
     color: #155FC0;
     text-decoration: none;
+    -webkit-box-reflect: below 0px linear-gradient(transparent , #0002 );
+    transition: 0.5s ease;
+    position: relative;
+    transition-delay: 0s;
 }
 
-#project .project-content .pr-detail a i{
-    font-size: 24px;
-    padding-left: 10px;
-    line-height: 25px;
+#project .project-content .pr-detail a:hover{
+    color: white;    
+    transition-delay: .5s;
+    box-shadow: 0 0 10px #0066FF;
 }
+
+#project .project-content .pr-detail a::before{
+    content: " ";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translate(-50%);
+    width: 20px;
+    height: 2px;
+    background: #0066FF;
+    box-shadow: 5px -8px 0 #0066FF,
+                5px  8px 0 #0066FF;
+    transition: width 0.5s, left 0.5s; height: 0.5s, box-shadow 0.5s ; 
+    transition-delay: 1s, 0.5s, 0s ,0s;           
+
+}
+
+#project .project-content .pr-detail a:hover::before{
+    width: 60%;
+    height: 100%;
+    top: 0;
+    /* left: -2px; */
+    left: 60px;
+    box-shadow: 5px 0px 0 #0066FF,
+                5px 0px 0 #0066FF;
+    transition-delay: 0s, 0s, 0.5s, 1s;              
+}
+
+#project .project-content .pr-detail a::after{
+    content: " ";
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translate(-50%);
+    width: 20px;
+    height: 2px;
+    background: #0066FF;
+    box-shadow: -5px -8px 0 #0066FF,
+                -5px  8px 0 #0066FF;
+    transition: width 0.5s, left 0.5s; height: 0.5s, box-shadow 0.5s ; 
+    transition-delay: 1s, 0.5s, 0s ,0s;           
+
+}
+
+#project .project-content .pr-detail a:hover::after{
+    width: 60%;
+    height: 100%;
+    top: 0;
+    /* left: -2px; */
+    right: -60px;
+    box-shadow: -5px 0px 0 #0066FF,
+                -5px 0px 0 #0066FF;
+    transition-delay: 0s, 0s, 0.5s, 1s;              
+}
+
+#project .project-content .pr-detail a span{
+    position: relative;
+    z-index: 2;
+    font-family: 'Merriweather', serif;    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;    
+}
+
+#project .project-content .pr-detail a:hover span{
+    color: white;
+}
+
 
 
 /* Technology part  */
@@ -569,6 +640,7 @@ body{
     color: #23557C;
     font-size: 64px;
     cursor: pointer;
+    -webkit-box-reflect: below 0px linear-gradient(transparent , #0002 );
     transition: all 0.3s ease;
 }
 
@@ -669,7 +741,7 @@ i {
 
 /* Testimonials par t */
 #client {
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: center;
 }
