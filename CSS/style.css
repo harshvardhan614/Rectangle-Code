@@ -669,7 +669,7 @@ i {
 
 /* Testimonials par t */
 #client {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
 }

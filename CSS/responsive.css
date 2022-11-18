@@ -121,34 +121,35 @@
 
     /* TEstimonials part  */
     .testimonial img {
-        max-width: 100px;        
-    } 
+        max-width: 100px;
+    }
+
     #customers-testimonial {
         padding: 20px 0;
     }
 
     #customers-testimonial .star {
-        font-size: 10px;        
-        padding: 10px 0 ;
+        font-size: 10px;
+        padding: 10px 0;
     }
 
-    .testimonial blockquote {      
-        padding: 5px 20px;        
+    .testimonial blockquote {
+        padding: 5px 20px;
     }
 
-    .testimonial blockquote p {       
+    .testimonial blockquote p {
         font-size: 14px;
-        line-height: 22px;       
+        line-height: 22px;
     }
 
     .testimonial blockquote::before,
     .testimonial blockquote::after {
-        font-size: 60px;       
+        font-size: 60px;
         width: 25px;
-        height: 25px;        
+        height: 25px;
     }
 
-    .testimonial-author p strong {        
+    .testimonial-author p strong {
         font-size: 20px;
     }
 
@@ -385,18 +386,47 @@
     /* .testimonial blockquote p{
         max-width: 350px;
     } */
-    
+
     .testimonial img {
-      margin-bottom: 5px;
+        margin-bottom: 5px;
     }
 
     .testimonial blockquote {
         padding: 5px 5px;
     }
 
-    .testimonial-author p {        
+    .testimonial-author p {
         font-size: 14px;
     }
+
+    #client {
+        display: initial;
+    }
+
+    h3.text-center {        
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .testimonial blockquote::before,
+    .testimonial blockquote::after {
+        font-size: 0px;
+        width: 0px;
+        height: 0px;
+    }
+
+    #customers-testimonial .star {
+        font-size: 5px;
+        padding: 8px 0;
+    }
+
+    .testimonial blockquote p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
 
     /* Footer part  */
 

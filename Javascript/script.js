@@ -52,7 +52,7 @@ $(function () {
 
 
 // testimonials scritpt 
-$(function () {
+$(window).on('load', function () {
     $("#customers-testimonial").owlCarousel({
       items: 1,
       autoplay: true,
