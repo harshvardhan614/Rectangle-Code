@@ -3,6 +3,7 @@
 const bar = document.getElementById('bar');
 const navbar = document.getElementById('navbar');
 const close = document.getElementById('close');
+// const menuBar = document.querySelectorAll('menu-bar');
 
 if(bar){
     bar.addEventListener('click', ()=> {
@@ -18,12 +19,24 @@ if(close){
     })
 }
 
+$(".menu-bar").click(function () {
+  navbar.classList.remove('active');
+      console.log("clicked");
+});
+
+// if(menuBar){
+//   menuBar.addEventListener('click', ()=> {
+//       navbar.classList.remove('active');
+//       console.log("clicked");
+//   })
+// }
+
 $(document).ready(function () {
   $(window).scroll(function () {    
     if (this.scrollY > 2000) {
       $(".scroll-up-btn").addClass("show");
     } else {
-      $(" .scroll-up-btn").removeClass("show");
+      $(".scroll-up-btn").removeClass("show");
     }
   });
 });
