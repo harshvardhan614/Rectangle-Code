@@ -383,6 +383,7 @@
     }
 
     /* testimonial part  */
+
     /* .testimonial blockquote p{
         max-width: 350px;
     } */
@@ -425,7 +426,16 @@
         line-height: 18px;
     }
 
+    /* project part  */
+    #project .project-content .pr-detail a{           
+        padding: 10px 14px;       
+        margin: 10px auto;               
+    }
 
+    #project .project-content .pr-detail a span{         
+        font-size: 14px;
+        line-height: 16px;       
+    }
 
 
     /* Footer part  */

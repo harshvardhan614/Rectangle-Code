@@ -58,6 +58,7 @@ faqs.forEach((faq) =>{
 //Projects
 $(function () {
     $("#project-part").owlCarousel({
+      margin:20,
       items: 1,
       autoplay: true,
       smartSpeed: 800,
