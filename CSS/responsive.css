@@ -304,6 +304,16 @@
 @media (max-width:588px) {
 
     /* common part  */
+    
+
+/* html{   
+    overflow-x: hidden;
+  }
+
+  body{
+    overflow-x: hidden;
+} */
+
     .section-mp {
         margin: 30px auto;
         padding: 30px 2rem;
