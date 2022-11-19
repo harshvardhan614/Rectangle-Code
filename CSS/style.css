@@ -338,14 +338,29 @@ body{
     align-items: center;
     width: 50%;
     padding: 0 20px;
+    position: relative; 
 }
 
 #vision .right-vision img {
     height: auto;
     max-width: 500px;
     padding: 2em;
+    /* margin: 1.5em; */
+    /* filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.400));  */
+         
+} 
+#vision .right-vision::before{
+    content: " ";
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    width: 35%;
+    height: 20px;    
+    background: rgba(0, 0, 0, 0.308);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(20px);
 }
-
 /* services section  */
 #services .service-content {
     display: flex;
@@ -464,7 +479,7 @@ body{
     width: 80%;
     height: auto;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    /* -webkit-box-reflect: below 0px linear-gradient(transparent , #0006 ); */
+    -webkit-box-reflect: below 0px linear-gradient(transparent , #0006 );
 }
 
 #project .project-content .pr-detail {
