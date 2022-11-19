@@ -71,10 +71,10 @@ faqs.forEach((faq) =>{
 //Projects
 $(function () {
     $("#project-part").owlCarousel({
-      margin:20,
+      margin:30,
       items: 1,
       autoplay: true,
-      smartSpeed: 800,
+      smartSpeed: 1200,
       loop: true,
       autoPlayHoverPause: true,
     });

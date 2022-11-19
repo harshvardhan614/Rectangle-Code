@@ -50,12 +50,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
 
+    <!-- AOS link  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- stylesheet  -->
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/responsive.css" />
 
     <title>Rectangle Technologies</title>
   </head>
+
 
   <body>
 
@@ -119,7 +123,7 @@
         <h2>what we do</h2>
       </div>
 
-      <div class="about-content">
+      <div data-aos="fade-up" class="about-content">
         <div class="left">
           <img src="Data/about.jpg" alt="no img" />
         </div>
@@ -147,7 +151,7 @@
     </section>
 
     <section id="vision" class="max-width sectionmp">
-      <div class="left-vision">
+      <div data-aos="fade-right" class="left-vision">
         <div class="head">OUR VISION</div>
         <p>
           The mission management workflows in just a a few clicks. The idea was
@@ -165,7 +169,7 @@
           budget management workflows in just a a few clicks.
         </p>
       </div>
-      <div class="right-vision">
+      <div data-aos="fade-left" class="right-vision">
         <img src="Data/Slice.png" alt="no img" />
       </div>
     </section>
@@ -177,7 +181,7 @@
       </div>
       <section class="service-content">
         <!-- provide 1 part  -->
-        <div class="provide">
+        <div data-aos="fade-right" class="provide">
           <div class="box">
             <div><i class="fa-solid fa-laptop"></i></div>
             <div class="data">
@@ -213,11 +217,11 @@
           </div>
         </div>
         <!-- phone part  -->
-        <div class="phone">
+        <div data-aos="fade-up" class="phone">
           <img src="Data/phone.png" alt="" />
         </div>
         <!-- provide 2 part        -->
-        <div class="provide">
+        <div data-aos="fade-left" class="provide">
           <div class="box">
             <div><i class="fa-brands fa-windows"></i></div>
             <div class="data">
@@ -261,12 +265,12 @@
       </div>
     </section> -->
 
-    <section id="project" class="max-width section-mp">
+    <section  id="project" class="max-width section-mp">
       <div class="title">
         <h2>Projects</h2>
         <h2>What We Develop</h2>
       </div>
-      <div class="container">
+      <div data-aos="fade-up" class="container">
         <div class="row">
           <div class="col-md-12">
             <div id="project-part" class="owl-carousel owl-theme owl-loaded">
@@ -371,7 +375,7 @@
         <h2>Technology</h2>
         <h2>What We Use</h2>
       </div>
-      <div class="marquee">
+      <div data-aos="fade-up" class="marquee">
         <ul class="marquee-content">
           <li><i class="fab fa-github"></i></li>
           <li><i class="fab fa-codepen"></i></li>
@@ -394,7 +398,7 @@
         <h2>FAQ’S</h2>
         <h2>GET YOUR ANSWERS</h2>
       </div>
-      <div class="faq-content">
+      <div data-aos="fade-up" class="faq-content">
         <div class="faq">
           <div class="question">
             <h3>What are the stages of website design development?</h3>
@@ -664,7 +668,7 @@
         <h2>AND COLLABORATE</h2>
       </div>
       <div class="footer-content">
-        <div class="details common">
+        <div data-aos="fade-right" class="details common">
           <h2>RECTANGLE TECHNOLOGIES</h2>
           <p>
             Our preference is to code the website from scratch in order to
@@ -674,7 +678,7 @@
             informative and digital presence websites
           </p>
         </div>
-        <div class="touch common">
+        <div data-aos="fade-up" class="touch common">
           <h2>GET IN TOUCH</h2>
           <div class="boxes">
             <i class="fa-solid fa-envelope"></i>
@@ -695,7 +699,7 @@
             <p>Rectangle Technologies, Surat, Gujarat-395007</p>
           </div>
         </div>
-        <div class="follow common">
+        <div data-aos="fade-left" class="follow common">
           <h2>FOLLOW US ON</h2>
           <div class="social">
             <i class="fa-brands fa-linkedin-in"></i>
@@ -732,7 +736,14 @@
     <!-- owl-carousel js file  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-    <script></script>
+    <!-- AOS script tag  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 250, //offset (in px)from the original trigger point
+   duration: 1000
+    });
+  </script>
 
     <!-- Javascript  -->
     <script src="Javascript/script.js"></script>
