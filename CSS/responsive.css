@@ -93,6 +93,14 @@
         height: auto;
     }
 
+    #services .service-content .phone .setimg {
+        position: absolute;
+        top: 52px;
+        right: 11px;        
+        height: 360px;
+        width: 206px;             
+    }
+
     #services .service-content .provide .box .data h2 {
         font-size: 20px;
 

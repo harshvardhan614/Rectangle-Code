@@ -35,10 +35,13 @@ body {
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 .max-width {
     width: 100%;
-    max-width: 1350px;
+    max-width: 1365px;
     margin: auto;
 }
 
@@ -416,12 +419,35 @@ body {
 
 #services .service-content .phone {
     max-width: 330px;
+    position: relative;
 }
 
 #services .service-content .phone img {
     max-width: 320px;
     height: auto;
+
 }
+
+#services .service-content .phone .setimg {
+    position: absolute;
+    top: 72px;
+    right: 15px;
+    background: url("../Data/mobile/img-1.jpg") ;    
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 285px;
+    z-index: 4;
+    transition: all 0s ease 0s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
 
 
 /* laptop part  */
@@ -480,7 +506,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 0 1em; */
+    /* padding: 0 1em; */      
 }
 
 #project .project-content .pro-img img {
@@ -489,6 +515,35 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     -webkit-box-reflect: below 0px linear-gradient(transparent, #0006);
 }
+
+@keyframes animate {
+    0% {
+      background:url("../Data/mobile/img-1.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    25% {
+      background:  url("../Data/mobile/img-2.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    50% {
+      background:url("../Data/mobile/img-3.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    75% {
+      background:  url("../Data/mobile/img-4.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    100% {
+      background:  url("../Data/mobile/img-1.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  
 
 #project .project-content .pr-detail {
     display: flex;
