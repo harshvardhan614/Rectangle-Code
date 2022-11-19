@@ -26,12 +26,13 @@ p {
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
-/* 
+
 body{
-    width: 100%;
-} */
+    overflow-x: hidden;
+}
 
 .max-width {
     width: 100%;

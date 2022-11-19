@@ -319,7 +319,8 @@
     }
 
     #hero{
-        min-height: 90vh;
+        height: 80vh;
+        margin-bottom: 10px;
     }
 
     #hero .img {
