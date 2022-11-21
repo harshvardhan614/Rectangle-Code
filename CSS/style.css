@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 /* font-family: 'Kaushan Script', cursive; */
 
+
 /* Common Css PArt  */
 * {
     padding: 0;
@@ -16,6 +17,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 p {
@@ -29,6 +31,7 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
+
 
 body {
     width: 100%;
@@ -448,74 +451,6 @@ body::-webkit-scrollbar {
 }
 
 
-
-
-/* laptop part  */
-.laptop {
-    background-color: #0066FF;
-}
-
-
-/* .laptop .lp-set img{     
-    width: 80%;
-    height: auto;
-} */
-
-
-/* Project section  */
-#project .owl-dots {
-    display: none;
-}
-
-#project .owl-nav.disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#project .owl-nav.disabled button {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    color: #23557C;
-    padding: 20px;
-    border-radius: 50%;
-    margin: 20px;
-    transition: all ease 0.3s;
-    /* border: 2px solid #23557C; */
-}
-
-#project .owl-nav.disabled button:hover {
-    border-color: #23557C;
-    transform: scale(1.2);
-    background-color: transparent;
-}
-
-#project .project-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 2em 0;
-}
-
-#project .project-content .pro-img {
-    width: 55%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* padding: 0 1em; */      
-}
-
-#project .project-content .pro-img img {
-    width: 80%;
-    height: auto;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    -webkit-box-reflect: below 0px linear-gradient(transparent, #0006);
-}
-
 @keyframes animate {
     0% {
       background:url("../Data/mobile/img-1.jpg");
@@ -544,6 +479,80 @@ body::-webkit-scrollbar {
     }
   }
   
+
+
+
+/* laptop part  */
+/* .laptop {
+    background-color: #0066FF;
+} */
+
+
+/* .laptop .lp-set img{     
+    width: 80%;
+    height: auto;
+} */
+
+
+/* Project section  */
+#project .owl-dots {
+    display: none;
+}
+
+#project .owl-nav.disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#project .owl-nav.disabled button {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #23557C;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20px;
+    transition: all ease 0.3s;
+    border:  none;
+    outline: none;
+    /* border: 2px solid #23557C; */
+}
+
+#project .owl-nav.disabled button:hover {   
+    transform: scale(1.2);
+    background-color: transparent;   
+    
+}
+
+
+
+#project .project-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2em 0 1em;
+}
+
+#project .project-content .pro-img {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 1em; */      
+}
+
+#project .project-content .pro-img img {
+    width: 80%;
+    height: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, #0006);
+}
+
+
 
 #project .project-content .pr-detail {
     display: flex;
@@ -674,9 +683,15 @@ body::-webkit-scrollbar {
 
 
 /* Technology part  */
+#technology {
+    padding: 2em 0 3em;
+    background-color:#23557C ;
+}
+
 #technology .title {
     padding: 0 3rem;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 :root {
@@ -710,19 +725,20 @@ body::-webkit-scrollbar {
 
 .marquee:before {
     left: 0;
-    background: linear-gradient(to right, #fff 0%, transparent 100%);
+    background: linear-gradient(to right, #23557C 0%, transparent 100%);
 }
 
 .marquee:after {
     right: 0;
-    background: linear-gradient(to left, #fff 0%, transparent 100%);
+    background: linear-gradient(to left, #23557C 0%, transparent 100%);
 }
 
 .marquee-content {
     list-style: none;
     height: 100%;
     display: flex;
-    animation: scrolling var(--marquee-animation-duration) linear infinite;
+    animation: scrolling var(--marquee-animation-duration) linear infinite;  
+   
 }
 
 /* .marquee-content:hover {
@@ -752,10 +768,10 @@ body::-webkit-scrollbar {
 }
 
 .marquee-content li i {
-    color: #23557C;
-    font-size: 64px;
+    color: #fff;
+    font-size: 80px;
     cursor: pointer;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(255, 255, 255, 0.311));
     transition: all 0.3s ease;
 }
 
