@@ -232,6 +232,7 @@ body::-webkit-scrollbar {
 #hero .img {
     background: linear-gradient(0deg, rgba(35, 85, 124, 0.3), rgba(35, 85, 124, 0.3)), url("../Data/bannerBack.jpg");
     height: 90vh;
+    max-height: 800px;
     width: 60%;
     background-position: top 25% right 0;
     background-size: cover;
@@ -399,7 +400,12 @@ body::-webkit-scrollbar {
 
 #services .service-content .provide .box i {
     color: #0066FF;
+    width: 30px;
     font-size: 35px;
+}
+
+#services .service-content .provide .box i.fa-apple{
+    font-size: 40px;
 }
 
 #services .service-content .provide .box .data {
@@ -515,7 +521,7 @@ body::-webkit-scrollbar {
     color: #23557C;
     padding: 20px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 10px 20px;
     transition: all ease 0.3s;
     border:  none;
     outline: none;
@@ -608,7 +614,7 @@ body::-webkit-scrollbar {
 #project .project-content .pr-detail a:hover {
     color: white;
     transition-delay: .5s;
-    box-shadow: 0 0 10px #0066FF;
+    box-shadow: 0 0 10px #0066FF;   
 }
 
 #project .project-content .pr-detail a::before {
